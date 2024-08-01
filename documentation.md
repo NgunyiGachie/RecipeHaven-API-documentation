@@ -1,4 +1,65 @@
-# API Documentation
+# Technical Documentation
+
+## **Frontend Technologies Used**
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **React Router**: For handling navigation.
+- **Framer-motion**: For animations.
+- **Clerk**: For third-party logins.
+- **React-Query**: For progressive data fetching.
+
+## **Key Components and Pages**
+
+### **Components**
+- WIP
+
+### **Pages**
+- **Home Page (Home.js)**: Landing page with overview and navigation to login, signup, and recipe selection.
+- **About Us Page (AboutUs.js)**: About Us Interface.
+- **Contact Us (ContactUs.js)**: Contact Us Interface.
+- **Register Page (Register.js)**: User registration interface.
+- **Login Page (Login.js)**: User login interface.
+- **ResetPassword Page (ResetPassword.js)**: User login interface.
+- **ActivateAccount Page (ActivateAccount.js)**: User profile and quiz history.
+- **Recipes Page (Recipes.js)**: Interface for getting all recipes.
+- **Recipe Page (Recipe.js)**: Interface for getting a single recipe.
+- **Bookmarks Page (Bookmarks.js)**: Interface for getting a user’s bookmarked recipes.
+- **CookingTips Page (CookingTips.js)**: Interface for getting various cooking tips.
+- **CookingTip Page (CookingTip.js)**: Interface for getting a single cooking tip.
+- **Dashboard Page (Dashboard.js)**: Admin Interface for managing all recipes.
+- **Error Page (Error.js)**: Displays error messages for various scenarios.
+
+## **Additional Features**
+
+### **Shopping List and Meal Planner:**
+- Add a feature for users to create shopping lists from recipes.
+- Implement a meal planner that allows users to schedule meals and generate shopping lists.
+
+### **In-App Notifications:**
+- Implement a notification system to inform users about new recipes, comments, and other relevant updates.
+
+### **Recipe Recommendations:**
+- Implement a recommendation system to suggest recipes based on user preferences, past behavior, and popular trends.
+- Use machine learning algorithms to enhance recommendation accuracy.
+
+### **User Personalization:**
+- Allow users to create and customize their profiles with preferences, dietary restrictions, favorite cuisines, etc.
+- Personalize the user interface based on user preferences.
+
+## **Backend Technologies Used**
+- **Flask**: Web framework for Python.
+- **Flask-RESTful**: Extension for building REST APIs.
+- **SQLAlchemy**: ORM for database interactions.
+- **Flask-Migrate**: Extension for handling database migrations.
+
+## **Key Modules and Files**
+- **api/models/**: Defines database models for User, Recipe, CookingTip, Comment, and Bookmark.
+- **api/resources/**: Contains class-based endpoints for managing Users, Recipes, CookingTips, Comments, and Bookmarks.
+- **api/config.py**: Configuration settings for different environments.
+- **api/run.py**: Entry point to run the Flask app.
+- **api/requirements.txt**: Python dependencies.
+
+# API Specifications
 
 ## **Authentication Endpoints**
 
